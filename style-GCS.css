@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.head-h1{
+    margin-left: 10px;
+    color: white;
+    background-color: #c22001;
+    width: 1000px;
+    padding-left: 450px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top{
+    background-color: white;
+    display: flex;
+}
+
+
+.head-logo img{
+    width:130px;
+    height: 80px;   
+}
+
+.header-home{
+   margin-right: 30px;
+   margin-top:20px;
+}
+
+a:visited{
+    color: white;
+}
+

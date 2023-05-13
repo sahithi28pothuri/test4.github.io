@@ -1,0 +1,184 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.head-h1{
+    margin-left: 10px;
+    color: white;
+    background-color: #c22001;
+    width: 1200px;
+    padding-left: 450px;
+    
+}
+.top{
+    background-color: white;
+    display: flex;
+}
+
+
+.head-logo img{
+    width:130px;
+    height: 80px;   
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.section2{
+    width:700px;
+    height:50px;
+    padding-left: 700px;
+    color: white;
+    background-color: #c22001;
+}
+
+
+
+.manager{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.left img{
+    width: 200px;
+    height: 200px;
+    border:solid black;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #bfbdc0;
+}
+
+.right img{
+    width: 200px;
+    height: 200px;
+    border:solid black;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #bfbdc0;
+    
+}
+
+.centre p{
+    opacity: 0;
+}
+
+.centre-leader :hover p{
+    position: relative;
+    opacity: 1;
+    transform: translate(45%,-600%);
+    scale: 2.5;
+    color: red;
+}
+
+/* Hover effect on GS Towers */
+.left img:hover{
+    opacity: 0.3;
+    scale: 1.1;
+    z-index: -1;
+    
+}
+
+.right img:hover{
+    opacity: 0.9;
+    scale: 1.1;
+}
+
+.centre img:hover{
+    opacity: 0.1;
+    scale: 1.1;
+    z-index: -1;
+}
+
+
+.centre img{
+    width: 400px;
+    height: 460px;
+    border:solid black;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #bfbdc0;
+}
+
+.left-leader{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+    
+    
+}
+
+.centre-leader{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-items: center;
+    margin-top: 30px;
+    
+}
+
+.right-leader{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+
+#slider{
+    background-color: aquamarine;
+    overflow: hidden;
+    height: 400px;
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#slider .figure-leader{
+    position: relative;
+    width: 400%;
+    margin-left:10px;
+    left:0;
+    animation: 22s slider infinite;
+}
+
+#slider .figure-leader img{
+    float:left;
+    width: 20%;
+}
+
+.images{
+    margin-left: 20px;
+}
+
+@keyframes slider{
+    0%{
+        left:0%;
+    }
+    10%{
+        left:0%;
+    }
+    20%{
+        left: -70%;
+    }
+
+    30%{
+        left: -160%;
+    }
+    40%{
+        left: -280%;
+    }
+    100%{
+        left:0%
+    }
+
+}
+
