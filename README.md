@@ -1,1 +1,1 @@
-# origami-part1
+# GS - One Digital Platform.
